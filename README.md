@@ -1,28 +1,34 @@
 # A/B Testing in python sample (WIP - Work in Progress)
 
-#### (Optional) In case the blog post is already published, please add: [Read the blog post here](https://configcat.com/blog/)
+<!-- Update link -->
+#### [Read the blog post here](https://configcat.com/blog/)
 
-A few words about the contents of the repository. Whats is this application about, what does it demonstrate? Add a backlink to https://configcat.com
+This is a fictitious landing page for a new book launch. It was developed with the flask python web framework and uses the jinja template engine on the frontend. In the article, I demonstrated how to conduct an A/B test experiment to determine if showing the number of copies sold would increase the click through rate of the purchase button. The two variations are highlighted below.
+
+<!-- TODO: Illustrate variation A/B -->
 
 ## Build & Run
 
-Instructions on how to build and run the application locally. A student or junior developer should be able to run the application.
-- Prerequisites
+### Prerequisites
 
-- venv - comes preinstalled with python3 for creating virtual environments
+1. [Python](https://www.python.org/) - Version 3.7 and newer
 
-- Steps, commands to run
+2. [venv](https://docs.python.org/3/library/venv.html#module-venv) - Python comes bundled with the venv module to create virtual environments.
 
-- run the app with:
+3. [Flask](https://flask.palletsprojects.com/en/2.2.x/) - The Python web framework we will be using
 
-1. Install the requirements
+### Running the app
 
-pip install 
-
-2. Run the app with
+1. Install the app requirements:
 
 ```sh
-flask --app app run
+pip install -r requirements.txt
+```
+
+2. Start the app and development sever:
+
+```sh
+flask --app app --debug run
 ```
 
 ## Learn more
@@ -30,8 +36,8 @@ flask --app app run
 Useful links to technical resources.
 
 Example:
-- Next.js Documentation - learn about Next.js features and API.
-- Learn Next.js - an interactive Next.js tutorial.
+- [Flask Documentation](https://flask.palletsprojects.com/en/2.2.x/#user-s-guide) - learn about Flask features and its API.
+- [Learn Flask](https://flask.palletsprojects.com/en/2.2.x/tutorial/) - an interactive Flask tutorial.
 
 [**ConfigCat**](https://configcat.com) also supports many other frameworks and languages. Check out the full list of supported SDKs [here](https://configcat.com/docs/sdk-reference/overview/).
 
@@ -40,7 +46,7 @@ You can also explore other code samples for various languages, frameworks, and t
 Keep up with ConfigCat on [Twitter](https://twitter.com/configcat), [Facebook](https://www.facebook.com/configcat), [LinkedIn](https://www.linkedin.com/company/configcat/), and [GitHub](https://github.com/configcat).
 
 ## Author
-[Your Name](https://github.com/your_name)
+[Your Name](https://github.com/codedbychavez)
 
 ## Contributions
 Contributions are welcome!
