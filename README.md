@@ -8,7 +8,22 @@ A few words about the contents of the repository. Whats is this application abou
 
 Instructions on how to build and run the application locally. A student or junior developer should be able to run the application.
 - Prerequisites
+
+- venv - comes preinstalled with python3 for creating virtual environments
+
 - Steps, commands to run
+
+- run the app with:
+
+1. Install the requirements
+
+pip install 
+
+2. Run the app with
+
+```sh
+flask --app app run
+```
 
 ## Learn more
 

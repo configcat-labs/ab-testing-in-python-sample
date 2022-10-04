@@ -1,0 +1,64 @@
+.intro {
+  background-color: #23424A;
+  padding: 148px;
+  background-image: url('/static/images/intro_background.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.intro .left-column h1 {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1.3em;
+  color: #FFFFFF;
+}
+
+.intro .left-column h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: .6em;
+  color: #FFFFFF;
+  margin-left: .6em;
+}
+
+.intro .left-column h2::before {
+  content: "-";
+}
+
+.intro .left-column p {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 32px;
+  color: #FFFFFFD9;
+  padding: .5em;
+}
+
+.intro .left-column .purchase-button {
+  display: inline-block;
+  background-color: #38CFD9;
+  padding: .8em 1.2em;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #23424A;
+  border-radius: 32px;
+}
+
+.intro .left-column .purchase-badge {
+  margin-top: 1em;
+  color: aliceblue;
+  font-size: 14px;
+  width: max-content;
+}
+
+.purchase-badge .right-triangle {
+  width: 0px;
+  height: 0px;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 8px solid orange;
+}
+
+.intro .right-column img {
+  width: 20em;
+}

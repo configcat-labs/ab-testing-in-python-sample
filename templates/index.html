@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block custom_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+{% endblock %}
+
+{% block content %}
+
+<div class="intro">
+  <div class="flex">
+    <div class="left-column">
+
+      <div class="container">
+        <h1>
+          {% block title %} The Ultimate Guide to Yoga & Meditation Practices {% endblock %}
+        </h1>
+        <h2>
+          Dr. Sara Miller
+        </h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit iure sed, quam nobis minima accusamus temporibus
+          omnis ipsa eaque, magni hic dicta veniam incidunt repellat. Perferendis consectetur nulla distinctio in!
+        </p>
+        <a class="purchase-button" href="#">Purchase Your Copy Now</a>
+        <div class="purchase-badge flex">
+          <div class="right-triangle"></div>
+          <div>Over <b>6000</b> copies sold&nbsp;!</div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="right-column">
+
+      <div class="container"><img src="{{ url_for('static', filename='images/book_cover.png') }}"
+          alt="Book cover image"></div>
+    </div>
+
+  </div>
+</div>
+
+{% endblock %}
