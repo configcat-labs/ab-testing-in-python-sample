@@ -9,7 +9,7 @@
 .intro .left-column h1 {
   font-size: 48px;
   font-weight: 900;
-  line-height: 1.3em;
+  line-height: 120%;
   color: #FFFFFF;
 }
 
@@ -28,12 +28,13 @@
 .intro .left-column p {
   font-weight: 400;
   font-size: 21px;
-  line-height: 32px;
+  line-height: 150%;
   color: #FFFFFFD9;
   padding: .5em;
 }
 
 .intro .left-column .purchase-button {
+  margin-top: 1em;
   display: inline-block;
   background-color: #38CFD9;
   padding: .8em 1.2em;

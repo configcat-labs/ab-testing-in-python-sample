@@ -22,10 +22,12 @@
           omnis ipsa eaque, magni hic dicta veniam incidunt repellat. Perferendis consectetur nulla distinctio in!
         </p>
         <a class="purchase-button" href="#">Purchase Your Copy Now</a>
+        {% if canShowCopiesSold %}
         <div class="purchase-badge flex">
           <div class="right-triangle"></div>
           <div>Over <b>6000</b> copies sold&nbsp;!</div>
         </div>
+        {% endif %}
       </div>
     </div>
 
