@@ -43,6 +43,8 @@
   text-transform: uppercase;
   color: #23424A;
   border-radius: 32px;
+  border: 0px;
+  cursor: pointer;
 }
 
 .intro .left-column .purchase-badge {

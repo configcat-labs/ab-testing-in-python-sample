@@ -1,0 +1,11 @@
+{
+  "Zone": "us",
+  "OrgId": "167669",
+  "WorkspaceId": "e1fecc45-4ecd-467f-b06e-9a5b815be3d7",
+  "SourceId": "cadc9151-9f71-4492-a4c8-c4a93ed4861f",
+  "Runtime": "python:python-ampli",
+  "Branch": "main",
+  "Version": "1.0.0",
+  "VersionId": "2c2e06ca-54cc-4828-b799-f7915499bd68",
+  "Path": "./ampli"
+}
